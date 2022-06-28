@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(253, 251, 251);
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#cabecalho {
+  background-color: rgb(23, 111, 70);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 140px;
+  padding: 2px;
+  text-align: center;
+  font-size: small;
+  color: rgb(218, 209, 209);
+  font-family: Verdana , Arial, Helvetica, sans-serif;
+}
+
+#foto {
+  display: flex;
+  padding: 10px;
+  margin-top: 150px;
+  justify-content: center;
+}
+
+#minha_foto {
+  width: 150px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.tudo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lado-direito {
+  width: 400px;
+  line-height: 20px;
+}
+
+.lado-esquerdo {
+  width: 600px;
+  justify-content: flex-start;
+}
+
+#listas {
+  display: flex;
+  flex-direction: row;
+}
+
+#rodape {
+  line-height: 20px;
+}
