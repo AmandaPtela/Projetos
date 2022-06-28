@@ -1,0 +1,146 @@
+.geral {
+  background-color: rgb(118, 189, 173);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
+  text-align: center;
+}
+
+.form-preview {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px;
+  text-align: center;
+}
+
+.formulario {
+  align-items: center;
+  background-color: rgba(114, 107, 107, 0.644);
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  height: 500px;
+  justify-content: space-around;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.texto-raridade, .texto-trunfo {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-left: 7px;
+}
+
+.secao-checkbox {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-center;
+}
+
+button {
+  font-size: 25px;
+  height: 40px;
+  width: 110px;
+}
+
+input, select {
+  font-size: 25px;
+  height: 40px;
+  text-align: center;
+  width: 340px;
+}
+
+select {
+  width: 500px;
+}
+
+.input-trunfo {
+  width: 30px;
+}
+
+.baralho {
+  background-color: rgba(255, 127, 170, 0.712);
+  border: 0.2cm solid rgba(163, 152, 86, 0.671);
+  border-radius: 1.2em;
+  font-family: sans-serif;
+  height: 100%;
+  line-height: 1px;
+  margin: 0;
+  max-width: 550px;
+  min-width: 400px;
+  padding: 10px;
+  text-align: center;
+}
+
+.secao-carta {
+  background-color: rgba(255, 127, 170, 0.712);
+  border: 0.2cm solid rgba(163, 152, 86, 0.671);
+  border-radius: 1.2em;
+  font-family: sans-serif;
+  height: 100%;
+  line-height: 1px;
+  margin: 0;
+  max-width: 550px;
+  min-width: 450px;
+  padding: 10px;
+  text-align: center;
+}
+
+.textos-card {
+  align-items: center;
+  color: rgba(44, 40, 40, 0.822);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+  max-width: 300px;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.textos-card-bottom {
+  align-items: center;
+  color: rgba(44, 40, 40, 0.822);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.secao-attr {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.imagem {
+  margin: 5px;
+}
+
+.secao-baralho {
+  border: 0.2cm solid rgb(221, 20, 81);
+  display: flex;
+  flex-flow: row-reverse;
+  width: 100%;
+}
+
+.area-cartas {
+  background-color: rgb(28, 71, 209);
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+  justify-content: space-around;
+  padding: 30px;
+  width: 100%;
+}
+
+.lista-baralho {
+  background-color: rgb(29, 202, 29);
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
