@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(32 , 122 , 92 , 0.733);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Comfortaa, cursive;
+}
+
+header {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: Comfortaa, cursive;
+  min-width: 80%;
+  min-height: 80%;
+}
+
+p {
+  margin-top: 1px;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 15px;
+  font-size: 50px;
+  background-color: rgba(139 , 176 , 187 , 0.863);
+  border-radius: 10cm 90cm;
+  width: 900px;
+  height: 210px;
+}
+
+#texto-tarefa {
+  border-radius: 1em;
+  height: 40px;
+  margin-right: 5px;
+  width: 300px;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(71 , 67 , 67);
+  font-family: Comfortaa, cursive;
+}
+
+.botao {
+  border-radius: 1em;
+  height: 55px;
+  width: 200px;
+  margin-right: 10px;
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(59 , 31 , 134 , 0.466);
+  justify-content: space-around;
+  font-family: Comfortaa, cursive;
+  align-items: baseline;
+}
+
+#botoes-extras {
+  margin-top: 15px;
+  display: flex;
+}
+
+#lista {
+  margin-top: 40px;
+  border-radius: 1.5em;
+  margin-bottom: 30px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(31 , 126 , 129 , 0.575);
+}
+
+label {
+  padding: 20px;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 1em;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  font-family: Comfortaa, cursive;
+}
+
+ol {
+  position: relative;
+  top: -19px;
+  align-items: center;
+  padding: 20px;
+  text-align: left;
+  list-style: circle;
+  padding-left: 50px;
+  width: 200px;
+  height: fit-content;
+  border-radius: 1em;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgba(67 , 52 , 109 , 0.137);
+  font-family: Comfortaa, cursive;
+}
+
+li {
+  font-family: Comfortaa, cursive;
+  line-height: 35px;
+  color: white;
+  font-weight: 500;
+  border-radius: 1em;
+  padding-left: 15px;
+  font-size: 25px;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+  color: rgba(46 , 77 , 46 , 0.678);
+}
+
+.selected {
+  background-color: gray;
+}
